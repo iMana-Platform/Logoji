@@ -1,0 +1,2 @@
+# Logoji
+Log with Emoji 🔖
