@@ -1,0 +1,6 @@
+framework module Logoji {
+  umbrella header "Logoji-umbrella.h"
+
+  export *
+  module * { export * }
+}
