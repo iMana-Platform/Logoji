@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Logoji'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Logoji.'
+  s.summary          = 'Log with Emoji.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+For more, you can visit: https://github.com/kingcos/Logoji.
                        DESC
 
   s.homepage         = 'https://github.com/kingcos/Logoji'
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kingcos' => '2821836721v@gmail.com' }
   s.source           = { :git => 'https://github.com/kingcos/Logoji.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/kingcos'
 
   s.ios.deployment_target = '8.0'
 
