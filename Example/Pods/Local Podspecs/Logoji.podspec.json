@@ -1,8 +1,8 @@
 {
   "name": "Logoji",
   "version": "0.1.0",
-  "summary": "A short description of Logoji.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Log with Emoji.",
+  "description": "For more, you can visit: https://github.com/kingcos/Logoji.",
   "homepage": "https://github.com/kingcos/Logoji",
   "license": {
     "type": "MIT",
@@ -15,6 +15,7 @@
     "git": "https://github.com/kingcos/Logoji.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/kingcos",
   "platforms": {
     "ios": "8.0"
   },
