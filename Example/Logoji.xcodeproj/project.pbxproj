@@ -42,7 +42,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7B0CB741DDF727650B1614EF /* Pods_Logoji_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Logoji_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B8C55DAB161EA5D6CA405C9 /* Logoji.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Logoji.podspec; path = ../Logoji.podspec; sourceTree = "<group>"; };
+		7B8C55DAB161EA5D6CA405C9 /* Logoji.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Logoji.podspec; path = ../Logoji.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC51F05C2354FFCA2F1A6316 /* Pods-Logoji_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logoji_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Logoji_Example/Pods-Logoji_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B4864AFC97A6FFDF71BF22B6 /* Pods_Logoji_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Logoji_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42235E9AB53C9DFAC929D32 /* Pods-Logoji_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logoji_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Logoji_Tests/Pods-Logoji_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -213,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LEG7CXMPKJ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LEG7CXMPKJ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -433,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -481,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -494,10 +496,11 @@
 			baseConfigurationReference = 257C94B2A01ED8D3D0D14BFF /* Pods-Logoji_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LEG7CXMPKJ;
 				INFOPLIST_FILE = Logoji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maimieng.Logoji-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -509,10 +512,11 @@
 			baseConfigurationReference = AC51F05C2354FFCA2F1A6316 /* Pods-Logoji_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LEG7CXMPKJ;
 				INFOPLIST_FILE = Logoji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maimieng.Logoji-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C42235E9AB53C9DFAC929D32 /* Pods-Logoji_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = LEG7CXMPKJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -544,6 +549,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE2E501DDDFCE0259ECAFC01 /* Pods-Logoji_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = LEG7CXMPKJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
